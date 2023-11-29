@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>没营养的逻辑消化区</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-W2k2g5/IqpIhLN2f9U4z4lWaoVGcxOD9dwu4tuY57UxIi3p4xBx6wce9MW8jk9pt09IrIccInbYz+xr3zmgkIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('bg.jpg'); /* 设置背景图片 */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden; /* 隐藏溢出的看板娘部分 */
+        }
+
+        /* 添加黑色圆角框 */
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+
+        .fun-fact {
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .emoji-button {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: #fff; /* 将字体颜色改为白色 */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .interests {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .interests h2 {
+            font-size: 1.8em;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+
+        .interests ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .interests li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+
+        .social-icons {
+            margin-top: 30px;
+            font-size: 1.5em;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            color: #fff; /* 将字体颜色改为白色 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 添加内容容器 -->
+    <div class="content-container">
+
+        <header>
+            <h1>没营养的逻辑消化区</h1>
+        </header>
+
+        <div class="fun-fact">
+            <p>可能比你想象的更有趣！</p>
+        </div>
+
+        <button class="emoji-button" onclick="showEmoji()">点一下，反正世界又不会毁灭。</button>
+
+        <div class="interests">
+            <h2>我的兴趣</h2>
+            <ul>
+                <li>无聊</li>
+                <li>发呆</li>
+                <li>做梦</li>
+                <li>听歌</li>
+            </ul>
+        </div>
+
+        <div class="social-icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+        </div>
+
+        <footer>
+            <p>© 2023 没营养 | <a href="www.r9.cm">南城</a></p>
+        </footer>
+
+    </div>
+
+    <script>
+        function showEmoji() {
+            alert('😊 你笑起来真好看！');
+        }
+    </script>
+</body>
+</html>
